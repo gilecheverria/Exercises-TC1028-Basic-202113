@@ -9,12 +9,6 @@
 sudo -H pip3 install pytest
 ```
 
-- ## 00 Hello World
-    ### Run command
-    ```
-    pytest assignments/00HelloWorld
-    ```
-
 - ## 01 Operaciones Básicas
     ### Run command
     ```
@@ -25,12 +19,6 @@ sudo -H pip3 install pytest
     ### Run command
     ```
     pytest assignments/02AreaTriangulo
-    ```
-
-- ## 03 Premedio Calificaciones
-    ### Run command
-    ```
-    pytest assignments/03Promedio
     ```
 
 - ## 04 Calcula tiempo
@@ -57,22 +45,10 @@ sudo -H pip3 install pytest
     pytest assignments/07PendienteLinea
     ```
 
-- ## 08 Caracol
-    ### Run command
-    ```
-    pytest assignments/08Caracol
-    ```
-
 - ## 09 Teléfono
     ### Run command
     ```
     pytest assignments/09Telefono
-    ```
-
-- ## 10 Videojuego
-    ### Run command
-    ```
-    pytest assignments/10Videojuego
     ```
 
 - ## 11 PEMDAS
@@ -85,18 +61,6 @@ sudo -H pip3 install pytest
     ### Run command
     ```
     pytest assignments/13CantidadLitrosPintura
-    ```
-
-- ## 14 Distancia Dos Puntos
-    ### Run command
-    ```
-    pytest assignments/14DistanciaDosPuntos
-    ```
-
-- ## 15 Escalera
-    ### Run command
-    ```
-    pytest assignments/15Escalera
     ```
 
 - ## 17 Razon Aurea
@@ -117,20 +81,8 @@ sudo -H pip3 install pytest
     pytest assignments/19Editorial
     ```
 
-- ## 20 Acertijo Edad
-    ### Run command
-    ```
-    pytest assignments/20AcertijoEdad
-    ```
-
 - ## 21 Levadura para Pizza
     ### Run command
     ```
     pytest assignments/21LevaduraParaPizza
-    ```
-
-- ## 22 Digitos Pares
-    ### Run command
-    ```
-    pytest assignments/22DigitosPares
     ```
