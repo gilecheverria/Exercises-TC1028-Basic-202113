@@ -25,13 +25,13 @@ Desarrolla un programa en Python que calcule la distancia entre dos puntos del p
 
 El programa solicita el punto inicial (x1, y1) y el final (x2, y2). Todos enteros y en ese orden.
 
-**Salida** 
+**Salida**
 
 El valor de la distancia (numero flotante) que existe entre los dos puntos. Despliega el resultado con la palabra distancia (todo en minúsculas) y un = y el número formateado a 2 decimales (sin espacios entre caracteres y números). Por ejemplo: distancia= 9.90
 
 ## Ejemplos de ejecución
 
-Ejemplo 1 
+Ejemplo 1
 
 ```plaintext
 x1= 2
@@ -41,7 +41,7 @@ y2= 3
 distancia= 7.62
 ```
 
-Ejemplo 2 
+Ejemplo 2
 
 ```plaintext
 x1= 5
@@ -52,4 +52,6 @@ distancia= 16.12
 ```
 **Nota:** No te preocupes por esta parte del código `if __name__ == '__main__':` por el momento. No la vamos a necesitar para este programa, pero es una buena práctica incluirla y quedará más claro para que sirve en los siguientes ejercicios.
 
-Una vez que termines tu actividad y la hayas probado con `pytest`, subela a tu repositorio en GitHub, con el proceso de commit + push.
+Una vez que termines tu actividad y la hayas probado con
+`python -m pytest --tb=short -v`,
+subela a tu repositorio en GitHub, con el proceso de commit + push.

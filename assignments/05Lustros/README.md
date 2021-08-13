@@ -19,7 +19,7 @@ Modifica el programa para que indique el número de lustros que ha vivido una pe
 
 Entradas: Dos números enteros. Primero el año de nacimiento y luego, el año actual.
 
-Salida: Un número con punto decimal que representa los lustros vividos por la persona. 
+Salida: Un número con punto decimal que representa los lustros vividos por la persona.
 
 Ejemplo:
 ```
@@ -30,4 +30,6 @@ Los lustros que has vivido son: 4.6
 
 **Nota:** No te preocupes por esta parte del código `if __name__ == '__main__':` por el momento. No la vamos a necesitar para este programa, pero es una buena práctica incluirla y quedará más claro para que sirve en los siguientes ejercicios.
 
-Una vez que termines tu actividad y la hayas probado con `pytest`, subela a tu repositorio en GitHub, con el proceso de commit + push.
+Una vez que termines tu actividad y la hayas probado con
+`python -m pytest --tb=short -v`,
+subela a tu repositorio en GitHub, con el proceso de commit + push.

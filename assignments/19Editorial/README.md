@@ -19,7 +19,7 @@ Modifica el programa para que haga lo siguiente:
 
 Una editorial cobra 60 dólares por página publicada y hace un descuento de 10% a los autores. Además, la editorial tiene una política que indica que 475 palabras es una página. Realiza un programa que indique cuál es el costo de una publicación a partir de las palabras de la misma. Considera que se necesita una página completa aunque el número de palabras sea menor a 475.
 
-Entradas: 
+Entradas:
 * Número de páginas (número entero)
 
 Salida: Un número decimal que represente el costo de la publicación.
@@ -30,7 +30,9 @@ Dame el número de palabras: 500
 El costo de la publicación es: 108.0
 ```
 
-Una vez que termines tu actividad y la hayas probado con `pytest`, súbela a tu repositorio en GitHub, con el proceso de commit + push.
+Una vez que termines tu actividad y la hayas probado con
+`python -m pytest --tb=short -v`,
+subela a tu repositorio en GitHub, con el proceso de commit + push.
 
 **Nota:** No te preocupes por esta parte del código `if __name__ == '__main__':` por el momento. No la vamos a necesitar para este programa, pero es una buena práctica incluirla y quedará más claro para qué sirve en los siguientes ejercicios.
 

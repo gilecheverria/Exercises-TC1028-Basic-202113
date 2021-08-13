@@ -9,7 +9,7 @@ def main():
     #escribe tu código abajo de esta línea
     #El mensaje para recibir el dato debe ser **"Area a pintar en metros: ** y **Rendimiento (m2/l): ** "
     #El mensaje para la salida debe ser **"Litros a comprar: **"
-    
+
 
 if __name__ == '__main__':
     main()
@@ -47,4 +47,6 @@ Razón áurea: 7.60476
 
 **Nota:** No te preocupes por esta parte del código `if __name__ == '__main__':` por el momento. No la vamos a necesitar para este programa, pero es una buena práctica incluirla y quedará más claro para que sirve en los siguientes ejercicios.
 
-Una vez que termines tu actividad y la hayas probado con `pytest`, subela a tu repositorio en GitHub, con el proceso de commit + push.
+Una vez que termines tu actividad y la hayas probado con
+`python -m pytest --tb=short -v`,
+subela a tu repositorio en GitHub, con el proceso de commit + push.

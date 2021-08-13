@@ -16,16 +16,16 @@ if __name__ == '__main__':
 La línea `#escribe tu código abajo de esta línea` es un comentario, el programa la va a ignorar al ejecutarse.
 
 Modifica el programa para que haga lo siguiente:
-Realiza un programa que reciba las coordenadas de dos puntos y que calcule la pendiente de la recta que une esos dos puntos. 
+Realiza un programa que reciba las coordenadas de dos puntos y que calcule la pendiente de la recta que une esos dos puntos.
 La fórmula para calcular la pendiente es:
 
 <b>m = (y2 - y1) / (x2 - x1)</b>
 
 Entradas:
-Cuatro números con punto decimal que representan las coordenadas x1, y1, x2, y2. Uno en cada línea y en el orden que se especifica. 
+Cuatro números con punto decimal que representan las coordenadas x1, y1, x2, y2. Uno en cada línea y en el orden que se especifica.
 
 Salidas:
-Un número decimal que representa la pendiente. 
+Un número decimal que representa la pendiente.
 
 Ejemplo de ejecución del programa:
 ```
@@ -38,4 +38,6 @@ Pendiente: 0.76
 
 **Nota:** No te preocupes por esta parte del código `if __name__ == '__main__':` por el momento. No la vamos a necesitar para este programa, pero es una buena práctica incluirla y quedará más claro para que sirve en los siguientes ejercicios.
 
-Una vez que termines tu actividad y la hayas probado con `pytest`, subela a tu repositorio en GitHub, con el proceso de commit + push.
+Una vez que termines tu actividad y la hayas probado con
+`python -m pytest --tb=short -v`,
+subela a tu repositorio en GitHub, con el proceso de commit + push.

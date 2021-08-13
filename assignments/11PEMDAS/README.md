@@ -29,7 +29,7 @@ Escribe un programa en Python que despliegue en pantalla el resultado de las sig
 Entradas:
 El programa no tiene entradas.
 
-Salidas: 
+Salidas:
 Cinco números (flotantes), resultado de las 5 operaciones anteriores, el orden de los resultados debe con el orden de las operaciones mostradas arriba. Los datos se deben formatear para que imprima un máximo de 4 cifras decimales (usa la función <i>round()</i>).
 
 NOTA IMPORTANTE: La salida debe coincidir exactamente con el formato y/o tipo de dato que se te pide como salida.
@@ -46,4 +46,6 @@ Ejemplo:
 
 **Nota:** No te preocupes por esta parte del código `if __name__ == '__main__':` por el momento. No la vamos a necesitar para este programa, pero es una buena práctica incluirla y quedará más claro para que sirve en los siguientes ejercicios.
 
-Una vez que termines tu actividad y la hayas probado con `pytest`, subela a tu repositorio en GitHub, con el proceso de commit + push.
+Una vez que termines tu actividad y la hayas probado con
+`python -m pytest --tb=short -v`,
+subela a tu repositorio en GitHub, con el proceso de commit + push.
